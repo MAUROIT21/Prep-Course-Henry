@@ -261,9 +261,9 @@ function continueStatement(numero) {
   nuevoarr = [];
   
   for (var i = 0; i < 10; i++) { // aca con var = i permite que se vea luego fuera del for.
-    suma += 2;
-    console.log(i, suma);
-    if (i == 4) {console.log('5ta iteracion, continue'); continue} else {
+    //console.log(i, suma);
+    if (i == 4) {/* console.log('5ta iteracion, continue'); */ continue} else {
+      suma += 2;
       nuevoarr.push(suma);
     }
   }
